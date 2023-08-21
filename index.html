@@ -1,0 +1,480 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Wholesale Menu Proposal</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+<link rel="stylesheet" href="styles.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/73ffcbdb91.js" crossorigin="anonymous"></script>
+</head>
+	
+	<script>
+	
+	function display_name_option() {
+		let text = document.getElementById("option");
+		if (text.innerHTML == "Wellness Plus+"){
+			text.innerHTML = "Own Your Wellness"
+		}else {
+			text.innerHTML = "Wellness Plus+"
+		}
+	}
+	
+	</script>
+<body>
+<img class="mobile-logo row p-1 bg-white"  src="mobile-logo.png" alt="">
+<div class="header-container pb-1">
+  <div class="row">
+    <div class="col text-center"> <img class="logo mt-3" src="https://www.lifeextension.com/-/media/project/lifeextension/images/logo/le-white-200x87.svg?rev=441f2afb0b1e44dda668b37507fbab84&h=87&w=200&la=en&hash=28BE2BE322C00FE0E141647D8D432AE9" alt=""></div>
+    <div class="col-lg-6 col-md-9 mx-auto mt-2">
+      <div class="form w-100 mt-lg-4 mt-sm-0">
+        <div class="input-group ">
+          <input type="text" class="form-control text-muted rounded-0 p-3" placeholder="search for products and health information or by item #" aria-label="Search" aria-describedby="button-addon2" value="">
+          <button class="btn search-button rounded-0 px-3 border border-top-0 border-bottom-0 border-right-0 border-left border-dark" type="button" id="button-addon2" aria-label="Search">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+            <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"></path>
+          </svg>
+          </button>
+        </div>
+      </div>
+      <div class="row mt-2">
+        <div class="col-2 col-lg-5">
+          <div class="menu-ham" type="button" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample"> <i class="hamburger ps-1 pb-0 fa-solid fa-bars"></i><span class="menu ms-1">Vitamins & Supplements</span> </div>
+        </div>
+        <div class="col-10 col-lg-7 mt-1">
+          <div class="scrollmenu"> <a href="https://www.lifeextension.com/vitamins-supplements">Best Sellers</a> <a href="https://www.lifeextension.com/wellness">Deals</a> <a href="https://www.lifeextension.com/wellness">Quizzes</a> 
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col"> <img class="sign-in img-fluid ms-5" src="sign-in.png" alt=""/> </div>
+  </div>
+</div>
+</div>
+</div>
+<div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+  <div class="offcanvas-header">
+    <div class="pb-0 main-menu-title ms-2"> <a href="#" target="_blank" style="text-decoration: none;"> <span>Hello Wholesaler <small><i class="title-chevron fa-solid fa-circle-chevron-right"></i></small></span></a></div>
+    <button type="button" class="close me-2" data-bs-dismiss="offcanvas" aria-label="Close"><i class="fa-sharp fa-solid fa-xmark"></i></button>
+  </div>
+  <div class="offcanvas-body">
+	<div id="carouselExampleIndicators" class="carousel slide">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="wide-boy.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="wide-boy2.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="wide-boy.jpg" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+    <ul>
+      <li class="main-category ps-3"><a href="https://www.lifeextension.com/vitamins-supplements/best-sellers">Trending Supplements</a></li>
+      <ul class="ps-3">
+        <li class="sub-category ps-3"><a href="https://www.lifeextension.com/vitamins-supplements/best-sellers">Best Sellers</a></li>
+		  <li class="sub-category ps-3"><a href="https://www.lifeextension.com/vitamins-supplements/new-reformulated">Essentials </a></li>
+		    <li class="sub-category ps-3"><a href="https://www.lifeextension.com/lab-testing/lab-tests-a-to-z">New Supplements</a></li>
+        <li class="sub-category"> <a href="https://www.lifeextension.com/vitamins-supplements/essentials">
+          <div class="ps-3 d-flex justify-content-between">Weight Management <span class="fire"><i class="fa-solid fa-fire"></i></span></div>
+          </a></li>
+        <li class="sub-category"><a href="https://www.lifeextension.com/vitamins-supplements/essentials">
+          <div class="ps-3 d-flex justify-content-between">Anti Aging <span class="fire"><i class="fa-solid fa-fire"></i></span></div>
+          </a></li>
+        <li class="sub-category"><a href="https://www.lifeextension.com/vitamins-supplements/essentials">
+          <div class="ps-3 d-flex justify-content-between">Brain Health <span class="fire"><i class="fa-solid fa-fire"></i></span></div>
+          </a></li>
+        <li class="sub-category"><a href="https://www.lifeextension.com/vitamins-supplements/essentials">
+          <div class="ps-3 d-flex justify-content-between">Heart Health <span class="fire"><i class="fa-solid fa-fire"></i></span></div>
+          </a></li>
+        <li class="sub-category"><a href="https://www.lifeextension.com/vitamins-supplements/essentials">
+          <div class="ps-3 d-flex justify-content-between">Magnesium <span class="fire"><i class="fa-solid fa-fire"></i></span></div>
+          </a></li>
+        
+      </ul>
+      <hr>
+      <li class="main-category ps-3"><a href="#">Shop Vitamins & Supplements</a></li>
+      <ul class="ps-3">
+        <li class="sub-category ps-3"> <a data-bs-toggle="offcanvas" href="#offcanvas2" role="button" aria-controls="offcanvas2">
+          <div class="d-flex justify-content-between pe-5"> By Health Concerns <span class="chevron"><i class="fa-solid fa-chevron-right"></i></span> </div>
+          </span></a></li>
+        <li class="sub-category ps-3"> <a data-bs-toggle="offcanvas" href="#offcanvas3" role="button" aria-controls="offcanvas3">
+          <div class="d-flex justify-content-between pe-5"> By Ingredients <span class="chevron"><i class="fa-solid fa-chevron-right"></i></span> </div>
+          </a></li>
+        <li class="sub-category ps-3"> <a data-bs-toggle="offcanvas" href="#offcanvas4" role="button" aria-controls="offcanvas4">
+          <div class="d-flex justify-content-between pe-5"> Vitamins & Minerals <span class="chevron"><i class="fa-solid fa-chevron-right"></i></span></div>
+          </a></li>
+        <li class="sub-category ps-3"> <a data-bs-toggle="offcanvas" href="#offcanvas5" role="button" aria-controls="offcanvas5">
+          <div class="d-flex justify-content-between pe-5"> Speciality Formulas <span class="chevron"><i class="fa-solid fa-chevron-right"></i></span></div>
+          </a></li>
+
+	  
+	  
+        <li class="sub-category ps-3"><a href="https://www.lifeextension.com/lab-testing/lab-tests-a-to-z">Gummies</a></li>
+        <li class="sub-category ps-3"><a href="https://www.lifeextension.com/lab-testing/lab-tests-a-to-z">Protein Powders</a></li>
+        <li class="sub-category ps-3"><a href="https://www.lifeextension.com/lab-testing/lab-tests-a-to-z">Food & Drinks</a></li>
+        <li class="sub-category ps-3"><a href="https://www.lifeextension.com/lab-testing/lab-tests-a-to-z">Dog Supplements</a></li>
+        
+        <li class="sub-category ps-3"><a href="https://www.lifeextension.com/lab-testing/lab-tests-a-to-z">Products A-Z</a></li>
+        <li class="sub-category ps-3"> <a data-bs-toggle="offcanvas" href="#offcanvas8" role="button" aria-controls="offcanvas8">
+          <div class="d-flex justify-content-between pe-5"> Other Brands <span class="chevron"><i class="fa-solid fa-chevron-right"></i></span> </div>
+          </a></li>
+      </ul>
+<!--	QUIZ BREAKOUT-->
+		<div class="bg-light my-4 break-button">
+		<hr class="p-0 m-0 my-1">
+
+		  <a href="" style="text-decoration:none;">
+		             <div class="row g-0">
+		
+                      <div class="col-2 ps-3"> <img
+                              src="https://www.lifeextension.com/-/media/lifeextension/icons/supplement-quizzes/essentials/essentials.svg?rev=afa95725e2984890b875988c2752f4dc&h=76&w=76&la=en&hash=E8F680384BEB9C9095BEC50D1E9B1374"
+                              style="width: 50px; height: auto"
+                        
+                              alt="..."
+                            /> </div>
+			
+                      <div class="col-9 ps-2">
+                        <div class="card-body p-0 text-start">
+                          <h5 class="pt-2" style="line-height: 18px"> 
+						
+							  
+							  <span class="fs-5" style="color: #0e2d52"
+                                  ><strong>HEALTH NEEDS</strong> QUIZZES</span
+                                ><br>
+                            <span
+                                  class="fs-6 p-0"
+                                  style="color:  #0d95a5"
+                                  >Take one today! <small><i class="break-chev fa-solid fa-circle-chevron-right"></i></small></span></span
+                                > </h5>
+           
+                        </div>
+                      </div>
+                    </div>
+	</a>
+		 <hr class="p-0 m-0 my-1">
+		</div>
+	
+      <li class="main-category ps-3"><a href="#">Shop All Lab Tests</a></li>
+      <ul class="ps-3">
+        <li class="sub-category ps-3"><a href="#">Top Picks</a></li>
+        <li class="sub-category ps-3"><a href="#">Lab Tests A to Z</a></li>
+		  <li class="sub-category ps-3"><a href="#">Lab Tests: How To </a></li>
+		  
+      </ul>
+<!--/QUIZ BANNER-->
+<hr>
+     
+      <li class="main-category ps-3"><a href="#">Education</a></li>
+      <ul class="ps-3">
+       
+        <li class="sub-category ps-3"> <a data-bs-toggle="offcanvas" href="#offcanvas6" role="button" aria-controls="offcanvas6">
+          <div class="d-flex justify-content-between pe-5"> All Health Topics <span class="chevron"><i class="fa-solid fa-chevron-right"></i></span> </div>
+          </a></li>
+        <li class="sub-category ps-3"><a href="#">Wellness Blog</a></li>
+        <li class="sub-category ps-3"> <a data-bs-toggle="offcanvas" href="#offcanvas7" role="button" aria-controls="offcanvas7">
+          <div class="d-flex justify-content-between pe-5"> eBooks <span class="chevron"><i class="fa-solid fa-chevron-right"></i></span> </div>
+          </a></li>
+      </ul>
+<!--WELLNESS SPECIALIST BREAKOUT-->
+	<div class="bg-light my-4 break-button">
+		<hr class="p-0 m-0 my-1">
+
+		  <a href="" style="text-decoration:none;">
+		             <div class="row g-0">
+		
+                      <div class="col-2 ps-3"> <img
+                              src="https://www.lifeextension.com/-/media/lifeextension/icons/le-programs/just-icons/wellness_guide.svg?rev=86995a3a4dfb4994a4ab75224c577600&h=135&w=135&la=en&hash=F148ACDDFE7F52DDCB15F0A04B2968EC"
+                              style="width: 50px; height: auto"
+                        
+                              alt="..."
+                            /> </div>
+			
+                      <div class="col-9 ps-2">
+                        <div class="card-body p-0 text-start">
+                          <h5 class="pt-2" style="line-height: 18px"> 
+						
+							  
+							  <span class="fs-5" style="color: #0e2d52"
+                                  ><span style="color: rgb(83, 152, 0);"><strong>WELLNESS</strong></span> BLOG</span
+                                ><br>
+                            <span
+                                  class="fs-6 p-0"
+                                  style="color: #0e2d52"
+                                  >Read Now<small> <i class="break-chev fa-solid fa-circle-chevron-right"></i></small></span></span
+                                > </h5>
+           
+                        </div>
+                      </div>
+                    </div>
+	</a>
+		 <hr class="p-0 m-0 my-1">
+		</div>
+<!--/WELLNESS SPECIALIST BREAKOUT-->
+      <li class="main-category ps-3"><a id="option" onClick="display_name_option()" href="#" >Own Your Wellness</a></li>
+      <ul class="ps-3">
+        <li class="sub-category ps-3"><a href="https://www.lifeextension.com/lab-testing/lab-tests-a-to-z">Magazines</a></li>
+        <li class="sub-category ps-3"><a href="https://www.lifeextension.com/lab-testing/lab-tests-a-to-z">Protocols</a></li>
+        <li class="sub-category ps-3"><a href="https://www.lifeextension.com/lab-testing/lab-tests-a-to-z">Health News</a></li>
+        <li class="sub-category ps-3"><a href="https://www.lifeextension.com/lab-testing/lab-tests-a-to-z">Newsletters</a></li>
+        <li class="sub-category ps-3"><a href="https://www.lifeextension.com/lab-testing/lab-tests-a-to-z">What's Hot</a></li>
+        <li class="sub-category ps-3"><a href="https://www.lifeextension.com/lab-testing/lab-tests-a-to-z">Consumer Alerts</a></li>
+       
+      </ul>
+	<hr>
+	  <li class="main-category ps-3"><a href="#"><i style="color:#0e2d52" class="fa-regular fa-circle-user pe-2"></i>My Account</a></li>
+      <hr>
+      <li class="main-category ps-3"><a href="#">About Us</a></li>
+      <hr>
+      <li class="main-category ps-3"><a href="#">Contact Us</a></li>
+	<li>
+		<div class="d-flex fs-6 ps-3 social-icons mb-3">
+			
+			<a href=""><i class="mx-2 fa-brands fa-x-twitter"></i></a>
+			<a href=""><i class="mx-2 fa-brands fa-instagram"></i></a>
+			<a href=""><i class="mx-2 fa-brands fa-youtube"></i></a>
+			<a href=""><i class="mx-2 fa-brands fa-linkedin-in"></i></a>
+			<a href=""><i class="mx-2 fa-brands fa-tiktok"></i></a>
+			<a href=""><i class="mx-2 fa-brands fa-pinterest"></i></a>
+			<a href=""><i class="mx-2fa-brands fa-facebook-f"></i></a>
+	</div>
+	</li>
+
+	
+	
+    </ul>
+    </ul>
+    <div> </div>
+  </div>
+</div>
+
+<!--Health Concerns-->
+<div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvas2" aria-labelledby="offcanvasExample2Label">
+  <div class="offcanvas-header p-2"> <a class="back-menu" data-bs-toggle="offcanvas" href="#offcanvasExample"><span class="chevron-back me-1"><i class="fa-solid fa-chevron-left"></i></span> Back</a>
+    <button type="button" class="close me-2" data-bs-dismiss="offcanvas" aria-label="Close"><i class="fa-sharp fa-solid fa-xmark"></i></button>
+  </div>
+  <hr class="mt-0">
+  <div class="offcanvas-body">
+    <h5 class="main-category ps-3" id="offcanvasExample2Label">By Health Concerns</h5>
+    <ul>
+      <li class="sub-category ps-5"><a href="">Anti-Aging &amp; Longevity</a></li>
+      <li class="sub-category ps-5"><a href="">Attention &amp; Focus</a></li>
+      <li class="sub-category ps-5"><a href="">Brain Health</a></li>
+      <li class="sub-category ps-5"><a href="">Blood Pressure</a></li>
+      <li class="sub-category ps-5"><a href="">Bone Health</a></li>
+      <li class="sub-category ps-5"><a href="">Cholesterol Management</a></li>
+      <li class="sub-category ps-5"><a href="">Digestive Health</a></li>
+      <li class="sub-category ps-5"><a href="">Energy Management</a></li>
+      <li class="sub-category ps-5"><a href="">Eye Health</a></li>
+      <li class="sub-category ps-5"><a href="">Fitness &amp; Active</a></li>
+      <li class="sub-category ps-5"><a href="">Gastric Discomfort</a></li>
+      <li class="sub-category ps-5"><a href="">General Health</a> </li>
+      <li class="sub-category ps-5"><a href="">Glucose Management</a></li>
+      <li class="sub-category ps-5"><a href="">Hair &amp; Nails</a></li>
+      <li class="sub-category ps-5"><a href="">Heart Health</a></li>
+      <li class="sub-category ps-5"><a href="">Hormone Balance</a></li>
+      <li class="sub-category ps-5"><a href="">Immune Health</a></li>
+      <li class="sub-category ps-5"><a href="">Inflammation Management</a></li>
+      <li class="sub-category ps-5"><a href="">Joint Health</a></li>
+      <li class="sub-category ps-5"><a href="">Kidney, Bladder &amp; Urinary Health</a></li>
+      <li class="sub-category ps-5"><a href="">Liver Health</a></li>
+      <li class="sub-category ps-5"><a href="">Memory &amp; Cognition</a></li>
+      <li class="sub-category ps-5"><a href="">Men&rsquo;s Health</a></li>
+      <li class="sub-category ps-5"><a href="">Mood Support</a></li>
+      <li class="sub-category ps-5"><a href="">Nerve Health</a></li>
+      <li class="sub-category ps-5"><a href="">Oral Care</a></li>
+      <li class="sub-category ps-5"><a href="">Seasonal Immune &amp; Nasal</a></li>
+      <li class="sub-category ps-5"><a href="">Sexual Health</a></li>
+      <li class="sub-category ps-5"><a href="">Skin Care</a></li>
+      <li class="sub-category ps-5"><a href="">Sleep</a></li>
+      <li class="sub-category ps-5"><a href="">Stress Management</a></li>
+      <li class="sub-category ps-5"><a href="">Thyroid Adrenal</a></li>
+      <li class="sub-category ps-5"><a href="">Weight Management</a></li>
+      <li class="sub-category ps-5"><a href="">Women&rsquo;s Health</a></li>
+    </ul>
+    </ul>
+  </div>
+</div>
+
+<!--By Ingredients-->
+<div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvas3" aria-labelledby="offcanvasExample3Label">
+  <div class="offcanvas-header p-2"> <a class="back-menu" data-bs-toggle="offcanvas" href="#offcanvasExample"><span class="chevron-back me-1"><i class="fa-solid fa-chevron-left"></i></span> Back</a>
+    <button type="button" class="close me-2" data-bs-dismiss="offcanvas" aria-label="Close"><i class="fa-sharp fa-solid fa-xmark"></i></button>
+  </div>
+  <hr class="mt-0">
+  <div class="offcanvas-body">
+    <h5 class="main-category ps-3" id="offcanvasExample3Label">By Ingredients</h5>
+    <ul>
+      <li class="sub-category ps-5"><a href="">Amino Acids</a></li>
+      <li class="sub-category ps-5"><a href="">Coq10</a> </li>
+      <li class="sub-category ps-5"><a href="">Carnitine</a></li>
+      <li class="sub-category ps-5"><a href="">Curcumin Turmeric</a></li>
+      <li class="sub-category ps-5"><a href="">DHEA</a></li>
+      <li class="sub-category ps-5"><a href="">Digestive Enzymes</a></li>
+      <li class="sub-category ps-5"><a href="">Fish Oil &amp; Omegas</a></li>
+      <li class="sub-category ps-5"><a href="">Magnesium</a></li>
+      <li class="sub-category ps-5"><a href="">Melatonin</a></li>
+      <li class="sub-category ps-5"><a href="">NAD</a></li>
+      <li class="sub-category ps-5"><a href="">Prebiotics &amp; Probiotics</a></li>
+      <li class="sub-category ps-5"><a href="">Resveratrol</a><strong></strong></li>
+    </ul>
+  </div>
+</div>
+
+<!--Viutamins and Minerals-->
+<div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvas4" aria-labelledby="offcanvasExample4Label">
+  <div class="offcanvas-header p-2"> <a class="back-menu" data-bs-toggle="offcanvas" href="#offcanvasExample"><span class="chevron-back me-1"><i class="fa-solid fa-chevron-left"></i></span> Back</a>
+    <button type="button" class="close me-2" data-bs-dismiss="offcanvas" aria-label="Close"><i class="fa-sharp fa-solid fa-xmark"></i></button>
+  </div>
+  <hr class="mt-0">
+  <div class="offcanvas-body">
+    <h5 class="main-category ps-3" id="offcanvasExample4Label">Vitamins & Minerals</h5>
+    <ul>
+      <li class="sub-category ps-5">All Vitamins</li>
+      <ul class="ps-5">
+        <li class="sub-category ps-5"><a href="">B</a></li>
+        <li class="sub-category ps-5"><a href="">C</a></li>
+        <li class="sub-category ps-5"><a href="">D</a></li>
+        <li class="sub-category ps-5"><a href="">E</a></li>
+        <li class="sub-category ps-5"><a href="">K</a></li>
+      </ul>
+      <li class="sub-category ps-5"><a href="">Multivitamins</a></li>
+      <li class="sub-category ps-5"><a href="">Minerals</a></li>
+    </ul>
+  </div>
+</div>
+
+<!--Speciality Formulas-->
+<div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvas5" aria-labelledby="offcanvasExample5Label">
+  <div class="offcanvas-header p-2"> <a class="back-menu" data-bs-toggle="offcanvas" href="#offcanvasExample"><span class="chevron-back me-1"><i class="fa-solid fa-chevron-left"></i></span> Back</a>
+    <button type="button" class="close me-2" data-bs-dismiss="offcanvas" aria-label="Close"><i class="fa-sharp fa-solid fa-xmark"></i></button>
+  </div>
+  <hr class="mt-0">
+  <div class="offcanvas-body">
+    <h5 class="main-category ps-3" id="offcanvasExample5Label">Speciality Formulas</h5>
+    <ul>
+      <li class="sub-category ps-5"><a href="">ArthroMax</a></li>
+      <li class="sub-category ps-5"><a href="">Bone Restore</a></li>
+      <li class="sub-category ps-5"><a href="">Cognitex</a></li>
+      <li class="sub-category ps-5"><a href="">GeroProtect</a></li>
+      <li class="sub-category ps-5"><a href="">Life Extension Mix</a></li>
+    </ul>
+  </div>
+</div>
+
+<!--AllHealth Topics-->
+<div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvas6" aria-labelledby="offcanvasExample6Label">
+  <div class="offcanvas-header p-2"><a class="back-menu" data-bs-toggle="offcanvas" href="#offcanvasExample"><span class="chevron-back me-1"><i class="fa-solid fa-chevron-left"></i></span>Back</a>
+    <button type="button" class="close me-2" data-bs-dismiss="offcanvas" aria-label="Close"><i class="fa-sharp fa-solid fa-xmark"></i></button>
+  </div>
+  <hr class="mt-0">
+  <div class="offcanvas-body">
+    <h5 class="main-category ps-3" id="offcanvasExample6Label">All Health Topics</h5>
+    <ul>
+      <li class="sub-category ps-5"><a href="">Active Lifestyle &amp; Fitness</a></li>
+      <li class="sub-category ps-5"><a href="/health-basics/brain-health" class="nav-link text-grey text-hover-info">Anti-Agigng & Longevity</a></li>
+      <li class="sub-category ps-5"><a href="//health-basics/energy-management">Bone Health</a></li>
+      <li class="sub-category ps-5"><a href="/vitamins-supplements/moisturizers">Brain Health</a></li>
+      <li class="sub-category ps-5"><a href="/vitamins-supplements/skin-protectant">Digestive Health</a></li>
+      <li class="sub-category ps-5"><a href="">Energy Management</a></li>
+      <li class="sub-category ps-5"><a href="/health-basics/brain-health" class="nav-link text-grey text-hover-info">Eye Health</a></li>
+      <li class="sub-category ps-5"><a href="//health-basics/energy-management">Gener Health and Wellness</a></li>
+      <li class="sub-category ps-5"><a href="/vitamins-supplements/moisturizers">Glucose Management / Blood Sugar</a></li>
+      <li class="sub-category ps-5"><a href="/vitamins-supplements/skin-protectant">Heart Health</a></li>
+      <li class="sub-category ps-5"><a href="">Hormonal Health / Balance</a></li>
+      <li class="sub-category ps-5"><a href="/health-basics/brain-health" class="nav-link text-grey text-hover-info">Immune Support</a></li>
+      <li class="sub-category ps-5"><a href="//health-basics/energy-management">Inflammation Management</a></li>
+      <li class="sub-category ps-5"><a href="/vitamins-supplements/moisturizers">Joint Health</a></li>
+      <li class="sub-category ps-5"><a href="/vitamins-supplements/skin-protectant">Kidney, Bladder, Urinary Health</a></li>
+      <li class="sub-category ps-5"><a href="/vitamins-supplements/moisturizers">Liver Health / Detoxification</a></li>
+      <li class="sub-category ps-5"><a href="/vitamins-supplements/skin-protectant">Men's Health</a></li>
+      <li class="sub-category ps-5"><a href="">Mood Support</a></li>
+      <li class="sub-category ps-5"><a href="/health-basics/brain-health" class="nav-link text-grey text-hover-info">Nerve Health & Comfort Support</a></li>
+      <li class="sub-category ps-5"><a href="//health-basics/energy-management">Sexual Health</a></li>
+      <li class="sub-category ps-5"><a href="/vitamins-supplements/moisturizers">Skin Care</a></li>
+      <li class="sub-category ps-5"><a href="/vitamins-supplements/skin-protectant">Sleep</a></li>
+      <li class="sub-category ps-5"><a href="//health-basics/energy-management">Stress Management</a></li>
+      <li class="sub-category ps-5"><a href="/vitamins-supplements/moisturizers">Thyroid / Adrenal</a></li>
+      <li class="sub-category ps-5"><a href="/vitamins-supplements/skin-protectant">Women's Health</a></li>
+      <li class="sub-category ps-5 mb-5"><a href="/vitamins-supplements/skin-tightening-products">Weight Management</a></li>
+    </ul>
+  </div>
+</div>
+
+<!--Speciality Formulas-->
+<div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvas7" aria-labelledby="offcanvasExample7Label">
+  <div class="offcanvas-header p-2"> <a class="back-menu" data-bs-toggle="offcanvas" href="#offcanvasExample"><span class="chevron-back me-1"><i class="fa-solid fa-chevron-left"></i></span> Back</a>
+    <button type="button" class="close me-2" data-bs-dismiss="offcanvas" aria-label="Close"><i class="fa-sharp fa-solid fa-xmark"></i></button>
+  </div>
+  <hr class="mt-0">
+  <div class="offcanvas-body">
+    <h5 class="main-category ps-3" id="offcanvasExample7Label">eBooks</h5>
+    <ul>
+      <li class="sub-category ps-5"><a href="">Probiotics</a></li>
+      <li class="sub-category ps-5"><a href="">Blood Pressure</a></li>
+      <li class="sub-category ps-5"><a href="">Stress</a></li>
+      <li class="sub-category ps-5"><a href="">Curcumin</a></li>
+      <li class="sub-category ps-5"><a href="">Sugar Spikes</a></li>
+      <li class="sub-category ps-5"><a href="">Healthy Weight</a></li>
+      <li class="sub-category ps-5"><a href="">Supplement Quality</a></li>
+      <li class="sub-category ps-5"><a href="">Heart Health</a></li>
+      <li class="sub-category ps-5"><a href="">Vitamin K</a></li>
+      <li class="sub-category ps-5"><a href="">Immune</a></li>
+    </ul>
+  </div>
+</div>
+
+<!--Other Brands-->
+<div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvas8" aria-labelledby="offcanvasExample7Label">
+  <div class="offcanvas-header p-2"> <a class="back-menu" data-bs-toggle="offcanvas" href="#offcanvasExample"><span class="chevron-back me-1"><i class="fa-solid fa-chevron-left"></i></span> Back</a>
+    <button type="button" class="close me-2" data-bs-dismiss="offcanvas" aria-label="Close"><i class="fa-sharp fa-solid fa-xmark"></i></button>
+  </div>
+  <hr class="mt-0">
+  <div class="offcanvas-body">
+    <h5 class="main-category ps-3" id="offcanvasExample7Label">Other Brands</h5>
+    <ul>
+      <li class="sub-category ps-5"><a href="">Bluebonnet Nutrion Supplements</a></li>
+      <li class="sub-category ps-5"><a href="">Douglas Laboratories Supplements</a></li>
+      <li class="sub-category ps-5"><a href="">Enzymedica Supplements</a></li>
+      <li class="sub-category ps-5"><a href="">Gaia Herbs Supplements</a></li>
+      <li class="sub-category ps-5"><a href="">Garden of Life Supplements</a></li>
+      <li class="sub-category ps-5"><a href="">Irwin Naturals Supplements</a></li>
+      <li class="sub-category ps-5"><a href="">Jarrow Supplements</a></li>
+      <li class="sub-category ps-5"><a href="">Megafood Supplements</a></li>
+      <li class="sub-category ps-5"><a href="">NaturesPlus Supplements</a></li>
+      <li class="sub-category ps-5"><a href="">Natures Way Supplements</a></li>
+	  <li class="sub-category ps-5"><a href="">Nordic Naturals Supplements</a></li>
+		      <li class="sub-category ps-5"><a href="">Now Supplements</a></li>
+		      <li class="sub-category ps-5"><a href="">Solaray Supplements</a></li>
+		      <li class="sub-category ps-5"><a href="">Solgar Supplements</a></li>
+		      <li class="sub-category ps-5"><a href="">Source Naturals Supplements</a></li>
+		      <li class="sub-category ps-5"><a href="">Sovereign Silver Supplements</a></li>
+	
+    </ul>
+  </div>
+</div>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script> 
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js" integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS" crossorigin="anonymous"></script>
+</body>
+</html>
