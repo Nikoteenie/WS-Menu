@@ -27,33 +27,63 @@
 	</script>
 <body>
 -->
-<img class="mobile-logo row p-1 bg-white"  src="mobile-logo.png" alt="">
+<!--	<img src="exposed-menu.png" width="100%" alt="">-->
+
+<img class="mobile-logo row bg-white img-fluid"  src="mobile-logo.png" alt="">
+	
+	
 <div class="header-container pb-1">
   <div class="row">
-    <div class="col text-center"> <img class="logo mt-3" src="https://www.lifeextension.com/-/media/project/lifeextension/images/logo/le-white-200x87.svg?rev=441f2afb0b1e44dda668b37507fbab84&h=87&w=200&la=en&hash=28BE2BE322C00FE0E141647D8D432AE9" alt=""></div>
-    <div class="col-lg-6 col-md-9 mx-auto mt-2">
-      <div class="form w-100 mt-lg-4 mt-sm-0">
+    <div class="col-lg-2"> <img class="logo img-fluid"  src="https://www.lifeextension.com/-/media/project/lifeextension/images/logo/le-logo-svg.svg?rev=87127ddb108648aa9bf71c9ed237f8ef&h=75&w=200&la=en&hash=D8E7AC0CF5E35466F65C3FE531322CD8" alt=""></div>
+
+    <div class="col-12 col-lg-6" >
+		  <div class="row mt-sm-3 justify-content-center">
+		<div class="col-2 col-lg-1">
+			  
+			    <div class="menu-ham" type="button" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+					
+					<span class="ham-span justify-content-center"><img class="burger" src="burger.png"  alt=""></span>
+					<div class="menu">Menu</div></div>
+			  </div>
+		<div class="col-8">
+			  <div class="form w-100  mt-sm-0">
         <div class="input-group ">
-          <input type="text" class="form-control text-muted rounded-0 p-3" placeholder="search for products and health information or by item #" aria-label="Search" aria-describedby="button-addon2" value="">
-          <button class="btn search-button rounded-0 px-3 border border-top-0 border-bottom-0 border-right-0 border-left border-dark" type="button" id="button-addon2" aria-label="Search">
-          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+          <input type="text" class="form-control text-muted rounded-0 p-2" placeholder="Search" aria-label="Search" aria-describedby="button-addon2" value="">
+          <button class="btn search-button rounded-0 px-3 border border-top-0 border-bottom-0 border-right-0 border-left border-dark" style="background-color: #D4D4D4"type="button" id="button-addon2" aria-label="Search">
+          <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
             <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"></path>
           </svg>
           </button>
         </div>
       </div>
-      <div class="row mt-2">
-        <div class="col-2 col-lg-5">
-          <div class="menu-ham" type="button" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample"> <i class="hamburger ps-1 pb-0 fa-solid fa-bars"></i><span class="menu ms-1">Menu</span> </div>
+			  
+			  </div>
+			  <div class="col-2 d-lg-none">
+			  
+			  <img src="rated.png" alt="">
+			  </div>
+			  
+		      <div class="row m-sm-0">
+    
+          <div class="scrollmenu text-center m-1"> <a href="https://www.lifeextension.com/vitamins-supplements/best-sellers">Best Sellers</a> 
+			  <a href="https://www.lifeextension.com/search#t=coveo4A2453FD&f:searchAttributes=[Search%20Attributes,On%20Sale]">Sales</a>
+			  <a href="https://www.lifeextension.com/health-basics/supplement-guides">New Supplements</a> 
+				
+				  
+				  </div>
         </div>
-        <div class="col-10 col-lg-7 mt-1">
-          <div class="scrollmenu"><a href="https://www.lifeextension.com/vitamins-supplements/best-sellers">Best Sellers</a> <a href="https://www.lifeextension.com/search#t=coveo4A2453FD&f:searchAttributes=[Search%20Attributes,On%20Sale]">Deals</a> <a href="https://www.lifeextension.com/vitamins-supplements/new-reformulated">New Supplements</a> </div>
-        </div>
-      </div>
-    </div>
-    <div class="col"> <img class="sign-in img-fluid ms-5" src="sign-in.png" alt=""/> </div>
-  </div>
-</div>
+		</div>
+      
+		</div>
+	  
+	  <div class="col-4 mt-lg-3 ">
+<!--	     <div class="col"> <img id="sign" class="sign-in img-fluid ms-5" src="sign-in.png" alt=""/>-->
+			 
+			 <img id="signed" class=" justify-content-center sign-in" src="sign-in.png" width="500px" alt=""/></div>
+	  </div>
+	</div>
+	
+<!--END of FIRST ROW	-->
 
 <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
   <div class="offcanvas-header">
@@ -122,9 +152,7 @@
         <li class="sub-category ps-3"><a href="https://www.lifeextension.com/vitamins-supplements/food-drink">Food & Drinks</a></li>
         <li class="sub-category ps-3"><a href="#">Dog Supplements</a></li>
         <li class="sub-category ps-3"><a href="https://www.lifeextension.com/vitamins-supplements/products-a-to-z">Products A-Z</a></li>
-        <li class="sub-category ps-3"> <a data-bs-toggle="offcanvas" href="#offcanvas8" role="button" aria-controls="offcanvas8">
-          <div class="d-flex justify-content-between pe-5"> Other Brands <span class="chevron"><i class="fa-solid fa-chevron-right"></i></span> </div>
-          </a></li>
+       
       </ul>
       <hr>
 <!--
@@ -165,7 +193,7 @@
       </ul>
       <hr>
       
-    <li class="main-category ps-3"><a href="https://www.lifeextension.com/wellness">Wellness Blog <img class="mb-1" src="chev.png" width="22px" alt=""></a></li>
+    <li class="main-category call-out ps-3"><a href="https://www.lifeextension.com/wellness">Wellness Blog <img class="mb-1" src="chev.png" width="22px" alt=""></a></li>
 	<hr>
 
       
@@ -199,7 +227,7 @@
         <li class="sub-category ps-3"><a href="https://www.lifeextension.com/about/testimonials">Testimonials</a></li>
         <li class="sub-category ps-3"><a href="https://www.lifeextension.com/about/life-extension-research">Our Scientific Research</a></li>
         <li class="sub-category ps-3"><a href="https://www.lifeextension.com/about/life-extension-research/product-development">Product Development</a></li>
-        <li class="sub-category ps-3"><a href="https://www.lifeextension.com/about/clinical-research">Clinical Research</a></li>
+<!--        <li class="sub-category ps-3"><a href="https://www.lifeextension.com/about/clinical-research">Clinical Research</a></li>-->
         <li class="sub-category ps-3"><a href="https://www.lifeextension.com/about/life-extension-research/safety">Safety</a></li>
       </ul>
       <hr>
@@ -216,7 +244,18 @@
       <li class="main-category ps-3"><a href="https://www.lifeextension.com/quest-com">Contact Us</a></li>
       <hr>
       <li>
-        <div class="d-flex fs-6 ps-3 social-icons mb-3"> <a href=""><i class="mx-2 fa-brands fa-x-twitter"></i></a> <a href=""><i class="mx-2 fa-brands fa-instagram"></i></a> <a href=""><i class="mx-2 fa-brands fa-youtube"></i></a> <a href=""><i class="mx-2 fa-brands fa-linkedin-in"></i></a> <a href=""><i class="mx-2 fa-brands fa-tiktok"></i></a> <a href=""><i class="mx-2 fa-brands fa-pinterest"></i></a> <a href=""><i class="mx-2 fa-brands fa-facebook-f"></i></a> </div>
+            <div class="d-flex fs-6 ps-3 social-icons mb-3"> 
+		   <a href="#"><i class="px-2 fa-brands fa-facebook-f"></i></a> 
+		<a href="#"><i class="px-2 fa-brands fa-instagram"></i></a> 
+		  <a href="#"><i class="px-2 fa-brands fa-youtube"></i></a>
+		   <a href="#"><i class="px-2 fa-brands fa-tiktok"></i></a> 
+		  <a href="#"><i class="px-2 fa-brands fa-x-twitter"></i></a>
+		  <a href="#"><i class="px-2 fa-brands fa-pinterest"></i></a><br>
+		  <a href="#"><i class="px-2 fa-brands fa-linkedin-in"></i></a> 
+		 
+		  
+			
+    </div>  
       </li>
     </ul>
   
