@@ -276,7 +276,6 @@ color: var(--orange);
 
 
 
-
 /*// Small devices (landscape phones, 576px and up)*/
 @media (max-width: 576px) {
   body {
@@ -306,7 +305,7 @@ color: var(--orange);
 	
 	div.scrollmenu a {
 
-  padding: 0 3px 0 3px;
+  padding: 0 7px 0 7px;
  
 }
 	
@@ -374,12 +373,10 @@ color: var(--orange);
   }
 */
 	 #offcanvasExample {
-      width: 19vw !important;  
+      width: 22vw !important;  
     }
 	
 
 }
-
-
 
 
