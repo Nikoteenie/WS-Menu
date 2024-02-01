@@ -97,10 +97,16 @@ font-size: 16px;
   color: white;
   font-size: 20px;
   font-weight: bolder;
-	background-color: #0e2d52
+	background-color: #0e2d52;
+		border: 2px solid var(--dark-blue);
 }
 
-
+.search-button:hover {
+	border: 2px solid var(--dark-blue) !important;
+	color: var(--dark-blue) !important;
+	background: white !important;
+	
+}
 .search-button:focus {
 outline: -webkit-focus-ring-color auto 1px !important;
 	color: white !important;
