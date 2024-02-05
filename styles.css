@@ -350,6 +350,10 @@ h3, .main-category a {
     width: 90% !important;
     padding: 0;
   }
+	
+	.desktop-icons{
+		display:none
+	}
 }
 /*// Medium devices (tablets, 768px and up)*/
 @media (max-width: 768px) {
