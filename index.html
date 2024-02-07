@@ -12,71 +12,81 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
 <script src="https://kit.fontawesome.com/73ffcbdb91.js" crossorigin="anonymous"></script>
 </head>
-
 <body>
-
-<!--EXPOSED MENU--> 
-
-<img class="mobile-logo bg-white img-fluid"  src="mobile-logo.png" alt="">
-<div class="header-container">
-  <div class="row justify-content-center m-1">
-    <div class="col-lg-2 p-0"> <img class="logo img-fluid"  src="https://www.lifeextension.com/-/media/project/lifeextension/images/logo/le-white-200x87.svg?rev=441f2afb0b1e44dda668b37507fbab84&h=87&w=200&la=en&hash=28BE2BE322C00FE0E141647D8D432AE9" alt=""></div>
-    <div class="col-12 col-lg-6 text-center justify-content-center p-0" >
-      <div class="row mt-sm-3 d-flex justify-content-center align-items-center">
-        <div class="col-2 col-lg-1 ">
-<!--
-          <div class="menu-ham" type="button" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample"> <span class="ham-span d-flex align-items-center ps-3">
-			 <i class="fs-4 fa-solid fa-bars"></i>
-   <p class="menu ps-1">Menu</p>
-            </span></div>
--->
-          <div class="mobile-menu menu-ham" type="button" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">  <i class="fs-4 fa-solid fa-bars"></i>
-            <div class="menu m-0 fs-6">Menu</div>
-          </div>
-        </div>
-        <div class="col-7">
-          <div class="form w-100 mt-sm-0 border-light">
-            <div class="input-group">
-              <input type="text" class="form-control" placeholder="Search" aria-label="Search" aria-describedby="button-addon2" value="">
-              <button class="btn search-button rounded" style="background-color: #0e2d52" type="button" id="button-addon2" aria-label="Search"> <i class="fa-solid fa-magnifying-glass"></i> </button>
+<img class="mobile-logo bg-white img-fluid"  src="mobile-logo.png" alt="" role="presentation">
+<div class="header-container ">
+  <div class="row justify-content-evenly text-center">
+    <div class="col-lg-3 p-0"> <img class="logo img-fluid"  src="https://www.lifeextension.com/-/media/project/lifeextension/images/logo/le-white-200x87.svg?rev=441f2afb0b1e44dda668b37507fbab84&h=87&w=200&la=en&hash=28BE2BE322C00FE0E141647D8D432AE9" alt="" role="presentation"></div>
+    <div class="col-12 col-lg-6 justify-content-center p-0" >
+      <div class="row justify-content-center">
+        <div class=" search-row d-flex justify-content-center align-items-top ">
+          <button class="mobile-menu"  type="button" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample"> <i class="fs-4 fa-solid fa-bars"></i>
+          <div class="fs-6 menu m-0 mt-lg-1">Menu</div>
+          </button>
+          <div>
+            <div class="form border-light container-fluid m-0">
+              <div class="input-group">
+                <input type="text" class="form-control" placeholder="Search" aria-label="Search" aria-describedby="button-addon2" value="">
+                <button class="btn search-button rounded" type="button" id="button-addon2" aria-label="Search"> <i class="fa-solid fa-magnifying-glass"></i> </button>
+              </div>
+              <div class="row p-0 mt-lg-2">
+                <div class="exposed-menu p-0 m-0"> <a  href="https://www.lifeextension.com/vitamins-supplements/best-sellers">Costumer Favorites</a> 
+			  <a href="#">Sales</a>
+			  	  <a href="https://www.lifeextension.com/vitamins-supplements/new-reformulated">New Products</a>
+			  <a href="https://www.lifeextension.com/education">Education</a> </div>
+              </div>
             </div>
           </div>
+			
+			
+<!--		  MOBILE-->
+          <img class="d-lg-none one-rated-mobile" src="rated.png" alt="" role="presentation" height="45">
+          <button href="https://www.lifeextension.com/about/consumerlab" class="one-rated-desktop border-0 bg-white d-flex "> <img  class="one-rated-desktop align-items-center" src="cl-award.png" alt="" width="38" />
+          <div class="one-rated-desktop ps-2 one-rated mt-2">#1 Rated <br>
+            Catalog/Internet Merchant</div>
+          </button>
         </div>
-        <div class="col-2 d-lg-none p-0"> <img class="img-fluid" src="rated.png" alt=""> </div>
-        <div class="row m-sm-0">
-          <div class="exposed-menu my-2 text-center pe-lg-5"> <a href="https://www.lifeextension.com/vitamins-supplements">Products</a> <a href="https://www.lifeextension.com/education">Education</a> <a href="https://www.lifeextension.com/about/about-life-extension">About Us</a> </div>
+		  
+
+        <div class=" d-lg-none row p-0 my-lg-2">
+          <div class="exposed-menu-mobile p-0 m-0"> <a  href="https://www.lifeextension.com/vitamins-supplements/best-sellers">Costumer Favorites</a> 
+			  <a href="#">Sales</a>
+			  	  <a href="https://www.lifeextension.com/vitamins-supplements/new-reformulated">New Products</a>
+			  <a href="https://www.lifeextension.com/education">Education</a> </div>
         </div>
+<!--		  /MOBILE-->
+		  
       </div>
     </div>
-      <div class="col-lg-3 p-0 desktop-icons"> <div class="justify-content-bottom dropdown d-inline sign-in">
-  <button class="btn p-0" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-<!--   <img src="account-icon.png"  width="30" style="display:inline;"  class="mb-1" alt="" role="presentation"/> <span class="mt-1 hello-account">Hello, Arnold</span> <img class="mb-1" src="drop-arrow.png" style="display:inline;" width="20" alt="" role="presentation"/>-->
-	  
-	 <img src="account.png"  class="mx-1" width="45" alt="">
-	   <figcaption>Account</figcaption>
-  </button>
-  <ul class="dropdown-menu py-3">
-    <li><a class="dropdown-item px-2 py-0" href="https://www.lifeextension.com/mylifeextension">My Life Extension</a></li>
-    <li><a class="dropdown-item px-2 py-0" href="https://mycart.lifeextension.com/account">Account Options</a></li>
-    
-	    <li><a class="dropdown-item px-2 py-0" href="https://mycart.lifeextension.com/account/orderhistory">Order History & Reorder</a></li>
-	    <li><a class="dropdown-item px-2 py-0" href="https://mycart.lifeextension.com/account/favorites">Wish Lists</a></li>
-	    <li><a class="dropdown-item px-2 py-0" href="https://mycart.lifeextension.com/account/shippingaddresses">Shipping Addresses</a></li>
-	    <li><a class="dropdown-item px-2 py-0" href="https://mycart.lifeextension.com/login">Sign Out</a></li>
-  </ul></div>
-		
-<!--		<img style="display:inline;" id="signed" class="account-icons img-fluid mt-2" src="sign-in2.png" alt=""/>-->
-		<button class="btn p-0 mx-1" type="button" data-bs- aria-expanded="false">
-			 <img class="d-inline" src="contact.png" alt="" width="35">
-	   <figcaption>Contact</figcaption></button>
-			  <button class="btn p-0 mx-1" type="button" data-bs-aria-expanded="false"><img class="d-inline" src="deals.png" alt="" width="35">
-	  <figcaption>Deals</figcaption></button>
-			 <button class="btn p-0 mx-1" type="button" data-bs- aria-expanded="false"><img class="d-inline" src="cart.png" alt="" width="35">
-	   <figcaption>Cart</figcaption></button>
-</div>
+    <div class="col-lg-3 p-0 desktop-icons">
+      <div class="justify-content-bottom dropdown d-inline sign-in">
+        <button class="btn p-0" type="button" data-bs-toggle="dropdown" aria-expanded="false"> <img src="account.png"  class="mx-1" width="45" alt="">
+        <figcaption>Account</figcaption>
+        </button>
+        <ul class="dropdown-menu py-3">
+          <li><a class="dropdown-item px-2 py-0" href="https://www.lifeextension.com/mylifeextension">My Life Extension</a></li>
+          <li><a class="dropdown-item px-2 py-0" href="https://mycart.lifeextension.com/account">Account Options</a></li>
+          <li><a class="dropdown-item px-2 py-0" href="https://mycart.lifeextension.com/account">LE Dollars</a></li>
+          <li><a class="dropdown-item px-2 py-0" href="https://mycart.lifeextension.com/account/autoship">AutoShip & Save</a></li>
+          <li><a class="dropdown-item px-2 py-0" href="https://mycart.lifeextension.com/account/orderhistory">Order History & Reorder</a></li>
+          <li><a class="dropdown-item px-2 py-0" href="https://mycart.lifeextension.com/account/favorites">Wish Lists</a></li>
+          <li><a class="dropdown-item px-2 py-0" href="https://mycart.lifeextension.com/account/shippingaddresses">Shipping Addresses</a></li>
+          <li><a class="dropdown-item px-2 py-0" href="https://mycart.lifeextension.com/login">Sign Out</a></li>
+        </ul>
+      </div>
+      <button class="btn p-0 mx-1" type="button" data-bs-aria-expanded="false"> <img class="d-inline" src="contact.png" alt="" width="35">
+      <figcaption>Contact</figcaption>
+      </button>
+      <button class="btn p-0 mx-1" type="button" data-bs-aria-expanded="false"><img class="d-inline" src="deals.png" alt="" width="35">
+      <figcaption>Deals</figcaption>
+      </button>
+      <button class="btn p-0 mx-1" type="button" data-bs- aria-expanded="false"><img class="d-inline" src="cart.png" alt="" width="35">
+      <figcaption>Cart</figcaption>
+      </button>
+    </div>
   </div>
 </div>
-<!--/EXPOSED MENU	-->
+<!--END EXPOSED MENU	--> 
 
 <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
   <div class="offcanvas-header">
