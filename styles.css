@@ -80,8 +80,7 @@ body {
   background: var(--light-blue);
 }
 .one-rated {
-  text-align: left !important;
-  font-size: 0.8750em;
+  font-size: 12px;
   color: var(--dark-blue);
   line-height: 1.3;
 }
