@@ -37,7 +37,7 @@ body {
   background-color: var(--light-blue);
 }
 .mobile-menu:hover {
-  background: white;
+  background: #e7e7e7;
   border: 2px solid var(--dark-blue);
   color: var(--dark-blue)
 }
@@ -68,7 +68,7 @@ body {
 .search-button:hover {
   border: 2px solid var(--dark-blue) !important;
   color: var(--dark-blue) !important;
-  background: white !important;
+  background: #e7e7e7 !important;
 }
 .search-button:focus {
   outline: -webkit-focus-ring-color auto 1px !important;
